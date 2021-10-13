@@ -27,7 +27,7 @@ var PrimaryBoolByValue = invertBoolStringMap(PrimaryValueByBool)
 var GenderLetterByFull = map[string]string{
 	"MALE":   "M",
 	"FEMALE": "F",
-	"UNDETERMINDED": "U"
+	"UNDETERMINDED": "U",
 }
 
 var GenderFullByLetter = invertStringStringMap(GenderLetterByFull)
